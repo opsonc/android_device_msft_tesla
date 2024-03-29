@@ -7,16 +7,16 @@
 # Inherit from mainline-common
 $(call inherit-product, device/linux/mainline-common/mainline.mk)
 
-# Setup dalvik vm configs (cant confirm this is fine)
+# Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi # idk if its fine
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 720
-TARGET_SCREEN_WIDTH := 1280
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
 
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

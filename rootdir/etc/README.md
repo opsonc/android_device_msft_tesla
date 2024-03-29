@@ -1,1 +1,0 @@
-FSTAB IS FROM LUMIA 950, DO NOT BUILD OR FLASH THIS ON YOUR DEVICE unless you want xiaomi phone (brick)
